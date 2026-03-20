@@ -68,7 +68,7 @@ public class Dueno {
 		}
 		
 	}
-	public String nombreCompleto() {
+	public String getNombreCompleto() {
 		return nombre+" "+apellido;
 	}
 	
