@@ -15,17 +15,13 @@ public class Main {
  System.out.println("Nombre completo : " + dueno.getNombreCompleto());
  System.out.println("Email valido : " + dueno.tieneEmailValido());
  // ── Integrante 3: Consulta ───────────────────────────────
- /*Consulta consulta = new Consulta("15/03/2025","Revision general","Animal saludable",
+ Consulta consulta = new Consulta("15/03/2025","Revision general","Animal saludable",
 45.0, false);
  System.out.println("\n" + consulta.toString());
  System.out.println("Categoria costo : "
  + consulta.calcularCategoriaCosto());
  System.out.println("Es critica : " + consulta.esCritica());
  // ── Integrante 4 (opcional): Veterinario ─────────────────
- // Si el grupo NO tiene Integrante 4, comenta las 4 lineas de abajo
- /*Veterinario vet = new Veterinario("Ana", "Gomez",
- "VET-001", "Cirugia", 7);
- System.out.println("\n" + vet.toString());
- System.out.println("Es especialista : " + vet.esEspecialista());
- System.out.println("\n====================================="); */
- }}
+
+ }
+}
