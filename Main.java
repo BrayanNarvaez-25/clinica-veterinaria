@@ -15,8 +15,7 @@ public class Main {
  System.out.println("Nombre completo : " + dueno.getNombreCompleto());
  System.out.println("Email valido : " + dueno.tieneEmailValido());
  // ── Integrante 3: Consulta ───────────────────────────────
- Consulta consulta = new Consulta("15/03/2025","Revision general","Animal saludable",
-45.0, false);
+ Consulta consulta = new Consulta("15/03/2025","Revision general","Animal saludable",45.0, false);
  System.out.println("\n" + consulta.toString());
  System.out.println("Categoria costo : "
  + consulta.calcularCategoriaCosto());
